@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Hello! I'm Jae Ung Lee",
+    "defaultLanguage": "Korean"
+  },
+  "aboutMe": {
+    "name": "Jae Ung Lee",
+    "nickName": "QuiD",
+    "profileImg": "../assets/images/me.gif",
+    "email": "wodnd101@naver.com",
+    "githubUrl": "https://github.com/QuiD-0",
+    "blogUrl": "https://quid-0.gitbook.io/blog/"
+  },
+
+  "skillSets": [
+    {
+      "category": "Front End Skills",
+      "skills": [
+        { "skill": "Javascript", "level": "5" },
+        { "skill": "HTML/CSS(SASS)", "level": "5" },
+        { "skill": "React", "level": "5" },
+        { "skill": "Typescript", "level": "4" }
+      ]
+    },
+    {
+      "category": "Back End Skills",
+      "skills": [
+        { "skill": "Python", "level": "3" },
+        { "skill": "Django", "level": "2" },
+        { "skill": "Django-Rest-Framework", "level": "1" },
+        { "skill": "Java", "level": "5" },
+        { "skill": "Spring", "level": "5" },
+        { "skill": "Ruby", "level": "4" },
+        { "skill": "Ruby-on-Rails", "level": "5" }
+      ]
+    },
+    {
+      "category": "Collaboration Skills",
+      "skills": [
+        { "skill": "Git/Github" },
+        { "skill": "Notion" },
+        { "skill": "Slack" },
+        { "skill": "Swit" }
+      ]
+    },
+    {
+      "category": "Etc...",
+      "skills": [
+        { "skill": "Netlify" },
+        { "skill": "Heroku" },
+        { "skill": "Pythonanywhere" },
+        { "skill": "AWS EC2" },
+        { "skill": "AWS Beanstalk" },
+        { "skill": "Docker" }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "imgUrl": "",
+      "githubUrl": "https://github.com/ddongule",
+      "projectUrl": "",
+      "title": "[Team] Project Title",
+      "term": "21.02.02 v1.3.0",
+      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "tags": ["React", "Javascript", "Java", "Spring"]
+    },
+    {
+      "imgUrl": "/assets/images/example-image-light.png",
+      "githubUrl": "https://github.com/ddongule",
+      "projectUrl": "",
+      "title": "[Personal] Project Title",
+      "term": "21.01.01 v1.0.0",
+      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "tags": ["React", "Javascript", "Java", "Spring"]
+    }
+  ],
+
+  "timestamp": [
+    {
+      "title": "Woowa Sisters",
+      "when": "21.12 ~ ",
+      "organizer": "Woowa Sisters",
+      "tags": ["company"]
+    },
+
+    {
+      "title": "2021 Woowa Tech Course 3th",
+      "when": "21.02.01 - 21.11.31",
+      "organizer": "Woowa Bros",
+      "tags": ["techcourse"]
+    },
+    {
+      "title": "우아한 대학교 (Woowa University)",
+      "when": "20.08.25",
+      "organizer": "University of Woowa",
+      "tags": ["graduation"]
+    }
+  ],
+
+  "experiences": [
+    {
+      "imgUrl": "/assets/images/example-image-dark.png",
+      "title": "[Software Engineer] Woowa Corp.",
+      "term": "21.02 - 현재 진행 중",
+      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "experienceUrl": "https://woowacourse.github.io/"
+    },
+    {
+      "imgUrl": "/assets/images/example-image-light.png",
+      "title": "[Intern] Woowa Corp.",
+      "term": "19.11 - 21.03",
+      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
+      "experienceUrl": "https://woowacourse.github.io/"
+    }
+  ],
+
+  "educations": [
+    {
+      "title": "우아한 대학교 (Woowa University)",
+      "term": "2013.03 - 2017.03",
+      "description": "척척박사 졸업"
+    },
+    {
+      "title": "잠실 고등학교 (Jamsil High School)",
+      "term": "2010.03 - 2013.02",
+      "description": "인문계 졸업"
+    }
+  ]
+}
