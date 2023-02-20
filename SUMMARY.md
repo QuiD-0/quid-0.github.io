@@ -48,6 +48,8 @@
   * [ErrorDecoder](study/feign-client/errordecoder.md)
 * [🍃 Spring](study/spring/README.md)
   * [JpaRepository는 어떻게 interface만으로 동작할까.](study/spring/jparepository-interface-..md)
+  * [Spring Triagle](study/spring/spring-triagle.md)
+  * [스프링 빈에 관하여](study/spring/undefined.md)
 
 ## ErrorLog
 
