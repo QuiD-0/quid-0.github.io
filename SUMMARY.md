@@ -4,6 +4,10 @@
 
 ## study
 
+* [🍃 Spring](study/spring/README.md)
+  * [JpaRepository는 어떻게 interface만으로 동작할까.](study/spring/jparepository-interface-..md)
+  * [Spring Triagle](study/spring/spring-triagle.md)
+  * [스프링 빈에 관하여](study/spring/undefined.md)
 * [💽 DataBase](study/test-page.md)
   * [정규화 VS 비정규화](study/database/vs.md)
   * [데이터베이스 성능 핵심](study/database/undefined.md)
@@ -46,10 +50,6 @@
   * [Interceptor](study/feign-client/interceptor.md)
   * [Logger](study/feign-client/logger.md)
   * [ErrorDecoder](study/feign-client/errordecoder.md)
-* [🍃 Spring](study/spring/README.md)
-  * [JpaRepository는 어떻게 interface만으로 동작할까.](study/spring/jparepository-interface-..md)
-  * [Spring Triagle](study/spring/spring-triagle.md)
-  * [스프링 빈에 관하여](study/spring/undefined.md)
 
 ## ErrorLog
 
