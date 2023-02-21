@@ -21,7 +21,7 @@
 
 ## Automatic Failover
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 Primary가 죽었을 경우 자동으로  Secondary중 하나를 Primary가 될 수 있다.
 
