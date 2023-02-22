@@ -48,6 +48,7 @@
 * [👾 Feign Client](study/feign-client/README.md)
   * [Feign With Spring](study/feign-client/feign-with-spring.md)
   * [Interceptor](study/feign-client/interceptor.md)
+  * [Spring Triangle](study/feign-client/spring-triangle.md)
   * [Logger](study/feign-client/logger.md)
   * [ErrorDecoder](study/feign-client/errordecoder.md)
 
