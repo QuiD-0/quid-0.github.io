@@ -6,7 +6,6 @@
 
 * [🍃 Spring](study/spring/README.md)
   * [JpaRepository는 어떻게 interface만으로 동작할까.](study/spring/jparepository-interface-..md)
-  * [Proxy 객체의 생성 시기는 언제일까?](study/spring/proxy.md)
   * [도메인 객체와 DTO의 책임과 의존](study/spring/dto.md)
   * [Spring Triagle](study/spring/spring-triagle.md)
   * [스프링 빈에 관하여](study/spring/undefined.md)
