@@ -36,18 +36,20 @@ dependencies {
 
 ```yaml
 spring:
-  kafka:
+   kafka:
+    bootstrap-servers: localhost:9092
     consumer:
-      properties:
-        spring.json.trusted.packages: "*"
-      bootstrap-servers: localhost:9092
-      group-id: alarm
-      auto-offset-reset: latest
-      key-deserializer: org.apache.kafka.common.serialization.LongDeserializer
+      auto-offset-reset: earliest
+      group-id: push
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: *
     producer:
-      bootstrap-servers: localhost:9092
-      key-serializer: org.apache.kafka.common.serialization.LongSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
     listener:
       ack-mode: Manual
