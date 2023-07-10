@@ -36,7 +36,7 @@ dependencies {
 
 ```yaml
 spring:
-   kafka:
+    kafka:
     bootstrap-servers: localhost:9092
     consumer:
       auto-offset-reset: earliest
