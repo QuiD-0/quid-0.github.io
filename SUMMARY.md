@@ -10,6 +10,7 @@
   * [도메인 객체와 DTO의 책임과 의존](study/spring/dto.md)
   * [Spring Triagle](study/spring/spring-triagle.md)
   * [스프링 빈에 관하여](study/spring/undefined.md)
+  * [@Lock과 @Transactional(isolation)의 차이점](study/spring/lock-transactional-isolation.md)
   * [여러개의 db를 연결하는 쉬운 방법](study/spring/db.md)
 * [💽 DataBase](study/test-page.md)
   * [정규화 VS 비정규화](study/database/vs.md)
