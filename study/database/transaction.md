@@ -24,12 +24,7 @@
 
 ## Isolation Level
 
-|                   | Dirty Read | Non Reapeatable Read | Phantom Read |
-| ----------------- | ---------- | -------------------- | ------------ |
-| Read Uncommitted  | O          | O                    | O            |
-| Read Committed    |            | O                    | O            |
-| Repeatable Read   |            |                      | O            |
-| Serializable Read |            |                      |              |
+<table><thead><tr><th> </th><th width="122">Dirty Read</th><th width="216">Non Reapeatable Read</th><th>Phantom Read</th></tr></thead><tbody><tr><td>Read Uncommitted</td><td>O</td><td>O</td><td>O</td></tr><tr><td>Read Committed</td><td></td><td>O</td><td>O</td></tr><tr><td>Repeatable Read</td><td></td><td></td><td>O</td></tr><tr><td>Serializable Read</td><td></td><td></td><td></td></tr></tbody></table>
 
 
 

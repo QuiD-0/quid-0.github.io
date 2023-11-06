@@ -39,7 +39,7 @@ Page를 리턴하는 findAll 메서드는 내가 작성하지 않아도 JpaRepos
 
 궁금증을 해결하기 위해 디버깅 모드를 사용하여 Repository를 사용할때를 breakpoint를 찍어 보면
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 SimpleJpaRepository의 프록시가 주입되어 있는 것을 볼 수 있다.
 

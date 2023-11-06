@@ -39,12 +39,7 @@
 
 ## 인덱스가 있을경우
 
-| 나이 | 인덱스 주소 | . | id | name | age |
-| -- | ------ | - | -- | ---- | --- |
-| 21 | 1      |   | 1  | AAA  | 21  |
-| 28 | 4      |   | 2  | BBB  | 30  |
-| 30 | 2      |   | 3  | CCC  | 39  |
-| 39 | 3      |   | 4  | DDD  | 28  |
+<table><thead><tr><th width="95">나이</th><th width="152">인덱스 주소</th><th width="59">.</th><th width="131">id</th><th>name</th><th>age</th></tr></thead><tbody><tr><td>21</td><td>1</td><td></td><td>1</td><td>AAA</td><td>21</td></tr><tr><td>28</td><td>4</td><td></td><td>2</td><td>BBB</td><td>30</td></tr><tr><td>30</td><td>2</td><td></td><td>3</td><td>CCC</td><td>39</td></tr><tr><td>39</td><td>3</td><td></td><td>4</td><td>DDD</td><td>28</td></tr></tbody></table>
 
 나이순으로 정렬되어있기 때문에 하나만 조회하면 된다.
 
