@@ -55,7 +55,15 @@ class SecurityConfig(
 
 admin API는 ADMIN권한이 있어야 접근 가능하다.
 
-### JwtAuthenticationFilter
+토큰을 사용하여 로그인을 하기때문에 \
+.httpBasic { it.disable() }\
+.csrf { it.disable() }            \
+.formLogin { it.disable() }\
+.sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
+
+설정을 해준다.
+
+### JwtAuthentication Filter
 
 ```kotlin
 class JwtAuthenticationFilter(
