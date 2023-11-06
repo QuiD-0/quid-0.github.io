@@ -62,13 +62,20 @@ interface TokenDecoder {
     ): TokenDecoder {
 
         override fun invoke(token: String): Token =
-            Jwts.parserBuilder()
-                .setSigningKey(secret.toByteArray(StandardCharsets.UTF_8))
-                .build()
-                .parse(token)
-                .let { it.body as Claims }
-                .let { Payload(it) }
-                .let { AccessToken(it) }
+            try {
+                Jwts.parserBuilder().setSigningKey(secret.toByteArray(StandardCharsets.UTF_8)).build()
+                    .parse(token)
+                    .let { it.body as Claims }
+                    .let { Payload(it) }
+                    .let { AccessToken(it) }
+            } catch (exp: ExpiredJwtException){
+                Payload(exp.claims)
+                    .run { AccessToken(this) }
+            }
     }
 }
 ```
+
+토큰을 JWT로 만들때 발생하는 ExpiredJwtException는 무시하여&#x20;
+
+JWT필터에서 체크한다.
