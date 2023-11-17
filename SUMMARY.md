@@ -65,12 +65,6 @@
   * [Logger](study/feign-client/logger.md)
   * [ErrorDecoder](study/feign-client/errordecoder.md)
 
-## ErrorLog
+## Book
 
-* [😅 Java](errorlog/java/README.md)
-  * [Page\<Obj> Error](errorlog/java/page-less-than-obj-greater-than-error.md)
-  * [Redis Serializer Error](errorlog/java/redis-serializer-error.md)
-
-## Tech
-
-* [🤖 Open Ai](study/open-ai/open-ai-with-spring.md)
+* [🌱 진화적 아키텍처](book/undefined.md)
