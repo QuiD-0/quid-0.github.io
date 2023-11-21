@@ -2,6 +2,11 @@
 
 * [QuiD-0](README.md)
 
+## Book
+
+* [🏍 쏙쏙 들어오는 함수형 코딩](book/undefined/README.md)
+  * [함수형 프로그래밍](book/undefined/undefined.md)
+
 ## study
 
 * [🍃 Spring](study/spring/README.md)
@@ -64,7 +69,3 @@
   * [Spring Triangle](study/feign-client/spring-triangle.md)
   * [Logger](study/feign-client/logger.md)
   * [ErrorDecoder](study/feign-client/errordecoder.md)
-
-## Book
-
-* [🌱 진화적 아키텍처](book/undefined.md)
