@@ -6,6 +6,7 @@
 
 * [🏍 쏙쏙 들어오는 함수형 코딩](book/undefined/README.md)
   * [함수형 프로그래밍](book/undefined/undefined.md)
+  * [불변형](book/undefined/undefined-1.md)
 
 ## study
 
