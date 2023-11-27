@@ -6,6 +6,7 @@
 
 * [🖥 프로그래머의 뇌](book/undefined/README.md)
   * [코드 더 잘 읽기](book/undefined/undefined.md)
+  * [코드에 대해 생각하기](book/undefined/undefined-1.md)
 * [🏍 쏙쏙 들어오는 함수형 코딩](book/undefined-1/README.md)
   * [함수형 프로그래밍](book/undefined-1/undefined.md)
   * [계층형 설계](book/undefined-1/undefined-1.md)
