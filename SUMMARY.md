@@ -6,6 +6,7 @@
 
 * [🛠 자바 최적화](book/undefined/README.md)
   * [JVM](book/undefined/jvm.md)
+  * [GC](book/undefined/gc.md)
 * [🖥 프로그래머의 뇌](book/undefined-1/README.md)
   * [코드 더 잘 읽기](book/undefined-1/undefined.md)
   * [코드에 대해 생각하기](book/undefined-1/undefined-1.md)
