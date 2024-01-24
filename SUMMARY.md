@@ -2,6 +2,13 @@
 
 * [QuiD-0](README.md)
 
+## LOG
+
+* [JpaRepository는 어떻게 interface만으로 동작할까.](log/jparepository-interface-..md)
+* [JPA Entity에서 final을 쓰면 안되는 이유](log/jpa-entity-final.md)
+* [WebClient를 사용할 때 주의할 점](log/webclient.md)
+* [ObjectMapper 커스텀 하기](log/objectmapper.md)
+
 ## Book
 
 * [🛠 자바 최적화](book/undefined/README.md)
@@ -19,14 +26,11 @@
 ## study
 
 * [🍃 Spring](study/spring/README.md)
-  * [JpaRepository는 어떻게 interface만으로 동작할까.](study/spring/jparepository-interface-..md)
-  * [JPA Entity에서 final을 쓰면 안되는 이유](study/spring/jpa-entity-final.md)
   * [도메인 객체와 DTO의 책임과 의존](study/spring/dto.md)
   * [Spring Triagle](study/spring/spring-triagle.md)
   * [스프링 빈에 관하여](study/spring/undefined.md)
   * [@Lock과 @Transactional(isolation)의 차이점](study/spring/lock-transactional-isolation.md)
   * [여러개의 db를 연결하는 쉬운 방법](study/spring/db.md)
-  * [WebClient를 사용할 때 주의할 점](study/spring/webclient.md)
 * [🔐 Spring Security](study/spring-security/README.md)
   * [Security세팅](study/spring-security/security.md)
   * [TOKEN](study/spring-security/token/README.md)
