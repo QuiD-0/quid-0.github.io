@@ -34,7 +34,7 @@ GC에서 사용되는 가장 기초 알고리즘입니다.
 
 대신 프로세스가 시작되면 JVM은 메모리를 할당(예약)하고 유저 공간에서 연속된 단일 메모리 풀을 관리합니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 에덴 영역은 대부분의 객체가 탄생하는 영역이고 단명객체는 다른 곳에는 위치할 수 없으므로 특별히 잘 관리 해야하는 영역입니다.
 
