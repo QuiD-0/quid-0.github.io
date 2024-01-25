@@ -6,7 +6,6 @@
   * [JPA Entity에서 final을 쓰면 안되는 이유](log/jpa-entity-final.md)
   * [여러개의 db를 연결하는 쉬운 방법](log/db.md)
   * [WebClient를 사용할 때 주의할 점](log/webclient.md)
-  * [ObjectMapper 커스텀 하기](log/objectmapper.md)
   * [Domain과 Entity 분리하기](log/domain-entity.md)
 
 ## Book
