@@ -32,9 +32,71 @@ JPA라는 ORM 기술을 접하고 처음 느낀 감정을 이야기 하자면 "�
 
 도메인과 엔티티를 분리함으로써 얻을 수 있는 이점중 가장 큰 것은 바로 의존성의 분리라고 생각한다.
 
-"헥사고날 아키텍처"를 읽어보았다면 각각의 레이어별로 역할과 그 레이어들간의 의존성을 분리하여&#x20;
+"헥사고날 아키텍처"를 읽어보았다면 각각의 레이어별로 역할과 그 레이어들간의 의존성을 분리하여 유지보수하기 좋은 코드를 작성하고 인터페이스를 통해 각각의 레이어들이 실제로 어떻게 동작하는지 전혀 몰라도 코드가 작동하도록 한다.
 
-유지보수하기 좋은 코드를 작성하고 인터페이스를 통해 각각의 레이어들이 실제로 어떻게 동작하는지 전혀 몰라도 코드가 작동하도록 한다.
+나또한 엔티티가 도메인과 분리됌으로써 JPA를 레포지토리 레이어에서만 사용되도록 사용하는 객체로 존재하게 한다.
+
+data Jpa를 통해 객체를 간단하게 CRUD하는 기능으로만 사용하고 실제 서비스에서는 toDomain()과 같은 코드를 통해 도메인으로 바꾼 객체를 사용하여 서비스 로직을 완성한다.
+
+모든 로직을 처리 후 도메인 코드를 엔티티로 변환시켜 save해주면 일련의 과정이 끝나게 된다.
+
+이를 위해서는 레파지토리를 한단계 더 추상화 시키면 더욱 효과적인 분리를 할 수있다.
+
+
+
+### 예시를 위한 코드
+
+```kotlin
+// Entity.kt
+@Entity
+class Entity(
+    @Id
+    @Gernerated(strategy = IDENTITY)
+    val id: Long? = null,
+    val name: String
+) {
+    constructor(domain: Domain) : this(domain.id, domain.name)
+    fun toDomain() = Domain(id, name)
+}
+
+// Domain.kt
+data class Domain(
+    val id: Long? = null,
+    val name: String
+) {
+}
+
+// DomainRepository
+interface DomainRepository {
+    fun create(domain: Domain): Domain
+    
+    @Repository
+    class DomainRepositoryImpl(
+        private val jpaRepository: DomainJpaRepository,
+        private val jdbcRepository: DomainJdbcRepository,
+        private val dslRepository: DomainDslRepository,
+    ){
+        override fun create(domain: Domain): Domain = 
+            jpaRepository.save(Entity(domain)).toDomain() 
+    }
+}
+```
+
+도메인 객체와 엔티티 객체를 분리하고 엔티티는 레포지토리 계층에서만 사용되는 객체로서 활용을 한다.
+
+또한 위에서 말했던것처럼 레포지토리를 한번 더 추상화하여 구현된 여러 레포지토리들을 유기적으로 활용한다.
+
+
+
+이것은 도메인과 엔티티 뿐만이 아니라 모든 외부 의존성이 필요한 코드에서 활용할 수 있다.
+
+Redis에서 사용되는 '@RedisHash', gRPC에서 사용되는 proto 객체들 모두 도메인과 분리하여 사용하면
+
+엔티티나 도메인 객체가 다른 외부 설정들이나 어노테이션으로 더렵혀지지 않도록 관리할 수 있다.
+
+&#x20;
+
+
 
 
 

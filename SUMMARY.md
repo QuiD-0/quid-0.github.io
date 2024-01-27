@@ -5,7 +5,7 @@
   * [JpaRepository는 어떻게 interface만으로 동작할까.](log/jparepository-interface-..md)
   * [JPA Entity에서 final을 쓰면 안되는 이유](log/jpa-entity-final.md)
   * [여러개의 db를 연결하는 쉬운 방법](log/db.md)
-  * [WebClient를 사용할 때 주의할 점](log/webclient.md)
+  * [소켓에서 발생하는 에러가 Too Many Open Files인 이유](log/too-many-open-files.md)
   * [Domain과 Entity 분리하기](log/domain-entity.md)
 
 ## Book
