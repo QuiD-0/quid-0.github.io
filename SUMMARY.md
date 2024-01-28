@@ -10,7 +10,7 @@
 
 ## MIND NOTE
 
-* [🔱 컴퓨터 네트워크](mind-note/undefined.md)
+* [🔱 TCP/IP](mind-note/tcp-ip.md)
 
 ## Book
 
