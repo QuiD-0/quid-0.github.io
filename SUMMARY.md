@@ -8,6 +8,10 @@
   * [소켓에서 발생하는 에러가 Too Many Open Files인 이유](log/too-many-open-files.md)
   * [Domain과 Entity 분리하기](log/domain-entity.md)
 
+## MIND NOTE
+
+* [🔱 컴퓨터 네트워크](mind-note/undefined.md)
+
 ## Book
 
 * [🛠 자바 최적화](book/undefined/README.md)
@@ -21,8 +25,6 @@
   * [함수형 프로그래밍](book/undefined-2/undefined.md)
   * [계층형 설계](book/undefined-2/undefined-1.md)
   * [타임라인](book/undefined-2/undefined-2.md)
-* [🧊 TCP/IP 쉽게 더 쉽게](book/tcp-ip/README.md)
-  * [컴퓨터 네트워크](book/tcp-ip/undefined.md)
 
 ## study
 
