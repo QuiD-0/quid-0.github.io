@@ -13,7 +13,7 @@
 * [🔱 TCP/IP](mind-note/tcp-ip/README.md)
   * [컴퓨터 네트워크](mind-note/tcp-ip/undefined.md)
   * [어플리케이션 계층](mind-note/tcp-ip/undefined-1.md)
-  * [트랜스포 계층](mind-note/tcp-ip/undefined-2.md)
+  * [트랜스포트 계층](mind-note/tcp-ip/undefined-2.md)
   * [라우팅과 인터넷 계층](mind-note/tcp-ip/undefined-3.md)
 
 ## Book
