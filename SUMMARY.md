@@ -7,6 +7,7 @@
   * [여러개의 db를 연결하는 쉬운 방법](log/db.md)
   * [소켓에서 발생하는 에러가 Too Many Open Files인 이유](log/too-many-open-files.md)
   * [Domain과 Entity 분리하기](log/domain-entity.md)
+  * [응답에 일관성을 부여하기](log/undefined.md)
 
 ## MIND NOTE
 
