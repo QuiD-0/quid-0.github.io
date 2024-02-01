@@ -15,7 +15,7 @@
   * [어플리케이션 계층](mind-note/tcp-ip/undefined-1.md)
   * [트랜스포트 계층](mind-note/tcp-ip/undefined-2.md)
   * [라우팅과 인터넷 계층](mind-note/tcp-ip/undefined-3.md)
-  * [하드웨어와네트워크 인터페이스 계층](mind-note/tcp-ip/undefined-4.md)
+  * [하드웨어와 네트워크 인터페이스 계층](mind-note/tcp-ip/undefined-4.md)
 
 ## Book
 
