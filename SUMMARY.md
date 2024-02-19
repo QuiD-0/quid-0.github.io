@@ -11,6 +11,8 @@
 
 ## MIND NOTE
 
+* [🛰 네트워크](mind-note/undefined/README.md)
+  * [전반적인 이해](mind-note/undefined/undefined.md)
 * [🔱 TCP/IP](mind-note/tcp-ip/README.md)
   * [컴퓨터 네트워크](mind-note/tcp-ip/undefined.md)
   * [어플리케이션 계층](mind-note/tcp-ip/undefined-1.md)
