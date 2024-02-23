@@ -1,4 +1,4 @@
-# WebClient를 사용할 때 주의할 점
+# 소켓에서 발생하는 에러가 Too Many Open Files인 이유
 
 ### 문제 발생
 
@@ -35,7 +35,7 @@ ls /proc/pid/fd
 
 
 
-구글링을 하여 찾을 수 있는 해결 방법은 단순하게 파일을 열수있는 최대 개수를 조절하라 입니다.₩
+구글링을 하여 찾을 수 있는 해결 방법은 단순하게 파일을 열수있는 최대 개수를 조절하라 입니다.
 
 ```sh
 ulimit -Hn
@@ -58,7 +58,11 @@ ulimit -Sn
 오라클 클라우드(ubuntu 20.02)에서 테스트를 해 보았지만 재현하지 못하였습니다.
 
 해당 이슈는 확실하지는 않지만 실제 서버가 운영중인 cent os와 spring, netty, jdk마이버 버전 등의 \
-버전 이슈가 아닐까 추측하고 있습니다.\
+버전 이슈가 아닐까 추측하고 있습니다.
+
+\-> [https://github.com/reactor/reactor-netty/issues/1152](https://github.com/reactor/reactor-netty/issues/1152)
+
+webflux가 가진 Reactor-Netty0.9.8 버전의 이슈인 것 같습니다. \
 
 
 아래는 문제해결을 위해 시도해보았던 코드입니다.
