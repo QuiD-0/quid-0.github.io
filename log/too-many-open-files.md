@@ -1,4 +1,4 @@
-# 소켓에서 발생하는 에러가 Too Many Open Files인 이유
+# 소켓에서 발생하는 Too Many Open Files이슈 핸들링
 
 ### 문제 발생
 
@@ -23,7 +23,7 @@ WebClient 를 사용하여 API통신을 하는 서버가 어느순간 요청을 
 ```sh
 jps
 // 현재 실행중인 java process의 pid를 출력합니다.
-ls /proc/pid/fd 
+ls /proc/{pid}/fd 
 // 해당 프로세스가 사용중인 fileDesciptor 목록
 ```
 
@@ -60,10 +60,19 @@ ulimit -Sn
 해당 이슈는 확실하지는 않지만 실제 서버가 운영중인 cent os와 spring, netty, jdk마이버 버전 등의 \
 버전 이슈가 아닐까 추측하고 있습니다.
 
-\-> [https://github.com/reactor/reactor-netty/issues/1152](https://github.com/reactor/reactor-netty/issues/1152)
+### 해결 완료
 
-webflux가 가진 Reactor-Netty0.9.8 버전의 이슈인 것 같습니다. \
+\->  [https://github.com/reactor/reactor-netty/issues/1152](https://github.com/reactor/reactor-netty/issues/1152)
 
+webflux가 가진 Reactor-Netty-0.9.8 버전의 socket leak인것을 찾게되었습니다.
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+실제로 해당 에러가 발생하였던 프로젝트는 Reactor-Netty-0.9.8를 사용중이였습니다.
+
+
+
+### 해결 시도들
 
 아래는 문제해결을 위해 시도해보았던 코드입니다.
 
@@ -137,7 +146,9 @@ return WebClient.builder()
 
 
 
-최종적으로 webflux의존성을 제거하고 restTemplate로 코드를 변경하여 해당 이슈를 해결하였습니다.
+최종적으로 webflux의존성을 제거하고 RestTemplate로 코드를 변경하여 해당 이슈를 해결하였습니다.
+
+\-> netty version을 업그레이드 하여도 문제가 생기는 사례가 있는것 같아서 해당 의존성을 제거하는 방향으로 수정하였습니다.
 
 ```java
 
