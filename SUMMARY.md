@@ -10,14 +10,14 @@
 
 ## MIND NOTE
 
-* [🛰️ 네트워크](mind-note/undefined/README.md)
-  * [전반적인 이해](mind-note/undefined/undefined.md)
 * [🔱 TCP/IP](mind-note/tcp-ip/README.md)
   * [컴퓨터 네트워크](mind-note/tcp-ip/undefined.md)
   * [어플리케이션 계층](mind-note/tcp-ip/undefined-1.md)
   * [트랜스포트 계층](mind-note/tcp-ip/undefined-2.md)
   * [라우팅과 인터넷 계층](mind-note/tcp-ip/undefined-3.md)
   * [하드웨어와 네트워크 인터페이스 계층](mind-note/tcp-ip/undefined-4.md)
+* [🛰️ 네트워크](mind-note/undefined/README.md)
+  * [네트워크 기본](mind-note/undefined/undefined.md)
 
 ## Book
 
