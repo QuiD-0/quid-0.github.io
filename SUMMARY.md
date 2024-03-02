@@ -17,7 +17,8 @@
   * [라우팅과 인터넷 계층](mind-note/tcp-ip/undefined-3.md)
   * [하드웨어와 네트워크 인터페이스 계층](mind-note/tcp-ip/undefined-4.md)
 * [🛰️ 네트워크](mind-note/undefined/README.md)
-  * [네트워크 기본](mind-note/undefined/undefined.md)
+  * [네트워크](mind-note/undefined/undefined.md)
+  * [WAN](mind-note/undefined/wan.md)
 
 ## Book
 
