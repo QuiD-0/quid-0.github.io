@@ -19,6 +19,8 @@
 * [🛰️ 네트워크](mind-note/undefined/README.md)
   * [네트워크](mind-note/undefined/undefined.md)
   * [WAN](mind-note/undefined/wan.md)
+* [📀 Real MySql](mind-note/real-mysql/README.md)
+  * [아키텍처](mind-note/real-mysql/undefined.md)
 
 ## Book
 
