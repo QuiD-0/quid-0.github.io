@@ -11,7 +11,6 @@
 
 서버가 하나일 경우 동시성 이슈를 해결하는 방법은 간단합니다. syncronized 키워드를 사용하면 됩니다.
 
-````
 ```java
 public class Counter {
     private int count = 0;
@@ -25,7 +24,6 @@ public class Counter {
     }
 }
 ```
-````
 
 하지만 서버가 여러개일 경우 syncronized 키워드를 사용하면 안됩니다.
 
