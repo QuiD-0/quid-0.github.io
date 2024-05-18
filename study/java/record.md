@@ -12,7 +12,6 @@
 ## 간단한 사용법
 
 ```java
-@Builder
 public record DiaryDto(Long id, String username, String title, 
 String content,LocalDate date, LocalDateTime createdAt) {
 }
@@ -32,7 +31,6 @@ public class DiaryDto(){
     private LocalDate date;
     private LocalDateTime createdAt;
 
-    @Builder
     public DiaryDto(Long id, String username, String title, String content, 
     LocalDate date, LocalDateTime createdAt) {
         this.id = id;
@@ -44,3 +42,6 @@ public class DiaryDto(){
     }
 }
 ```
+
+
+
