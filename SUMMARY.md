@@ -8,7 +8,6 @@
   * [소켓에서 발생하는 Too Many Open Files이슈 핸들링](log/too-many-open-files.md)
   * [@Lock과 @Transactional(isolation)의 차이점](log/lock-transactional-isolation.md)
   * [Domain과 Entity 분리하기](log/domain-entity.md)
-  * [Component와 Repository의 차이](log/component-repository.md)
 
 ## MIND NOTE
 

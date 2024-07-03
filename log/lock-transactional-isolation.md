@@ -2,7 +2,7 @@
 
 spring boot와 jpa를 사용하여 동시성을 제어할때 자주 나오는 키워드가 있습니다.
 
-@Lock을 통한 비관적락, 낙관적 락을 획득 하는것 \
+@Lock을 통한 비관적 락, 낙관적 락을 획득 하는것 \
 그리고 @Transactional에 파라미터로 넣을 수 있는 isolation Level 입니다.
 
 ### @Lock&#x20;
