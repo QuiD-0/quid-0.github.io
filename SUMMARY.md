@@ -33,5 +33,4 @@
 
 ## 도서 정리 <a href="#books" id="books"></a>
 
-* [컴퓨터 시스템 딥다이브](books/undefined/README.md)
-  * [Untitled](books/undefined/untitled.md)
+* [컴퓨터 시스템 딥다이브](books/undefined.md)
