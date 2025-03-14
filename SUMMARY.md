@@ -12,3 +12,4 @@
 ## 아카이브 <a href="#archive" id="archive"></a>
 
 * [Too Many Open Files 에러와 원인을 찾는 과정](archive/too-many-open-files.md)
+* [내부망 DNS 이슈로 인한 응답지연](archive/dns.md)
