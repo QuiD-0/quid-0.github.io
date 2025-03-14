@@ -33,4 +33,6 @@
 
 ## 도서 정리 <a href="#books" id="books"></a>
 
-* [컴퓨터 시스템 딥다이브](books/undefined.md)
+* [컴퓨터 시스템 딥다이브](books/undefined/README.md)
+  * [아키텍처](books/undefined/undefined.md)
+  * [운영 체제](books/undefined/undefined-1.md)

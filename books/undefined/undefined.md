@@ -1,4 +1,4 @@
-# 컴퓨터 시스템 딥다이브
+# 아키텍처
 
 ## <mark style="background-color:yellow;">컴퓨터 아키텍처</mark>
 
@@ -11,7 +11,7 @@
 5. **출력 장치** - 실행 결과를 저장하거나 수신
 6. **버스** - 장치들을 연결하고 서로에게 정보를 전송
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 10.35.54.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.35.54.png" alt=""><figcaption></figcaption></figure></div>
 
 ### 프로그램 명령어 사이클
 
@@ -21,12 +21,12 @@
 
 ### 클럭 주도 실행&#x20;
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 10.43.17.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.43.17.png" alt=""><figcaption></figcaption></figure></div>
 
 **클럭 사이클** - 1과 0이 한번씩 이어진것 \
 **클럭 엣지** - 1 -> 0 또는 0 -> 1로 변화하는것&#x20;
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 10.46.21.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.46.21.png" alt=""><figcaption></figcaption></figure></div>
 
 하나의 명령어를 실행하는데 4 사이클이 걸린다.
 
@@ -34,7 +34,7 @@
 
 ### 파이프라이닝
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 10.48.06.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.48.06.png" alt=""><figcaption></figcaption></figure></div>
 
 현재 명령 실행을 완료하기 전에 다음 명령을 실행한다.
 
@@ -44,7 +44,7 @@
 
 ### 메모리 계층
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 10.58.38.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.58.38.png" alt=""><figcaption></figcaption></figure></div>
 
 CPU에 가까이 있을수록 비싸고 성능이 좋다.&#x20;
 
@@ -60,7 +60,7 @@ CPU에 가까이 있을수록 비싸고 성능이 좋다.&#x20;
 캐패시터에 데이터를 저장, 메모리 버스를 통해 CPU에 연결 된다.\
 저장된 값을 유지하기 위해 캐패시터의 전하를 자주 채워야하기 때문에 '동적'램이다.
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 11.15.48.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 11.15.48.png" alt=""><figcaption></figcaption></figure></div>
 
 CPU와 메인 메모리는 몇 cm 떨어져 있지만 반드시 메모리 버스를 경유해야해서 CPU 저장소에 비하면 전송률이 낮아진다. 그 결과 메모리 버스를 **폰 노이만 병목**이라 부른다.&#x20;
 
@@ -108,7 +108,7 @@ for문이 반복되는동안 sum, i 에 반복 접근한다.\
 
 ### 다이렉트 맵드 캐시
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오후 12.07.34.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오후 12.07.34.png" alt=""><figcaption></figcaption></figure></div>
 
 저장소 공간을 **캐시 라인**이라는 단위로 나눈다.
 
@@ -120,14 +120,14 @@ for문이 반복되는동안 sum, i 에 반복 접근한다.\
 
 메모리의 서브셋 식별을 돕는 정보를 저장
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오전 11.48.54.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 11.48.54.png" alt=""><figcaption></figcaption></figure></div>
 
 같은 캐시 라인에 매핑된 메모리 영역은 같은 캐시 라인의 공간을 두고 경쟁\
 **태그, 인덱스, 오프셋**을 통해 데이터 요청&#x20;
 
 ### 셋 어소시에이티브 캐시
 
-<div align="left"><figure><img src="../.gitbook/assets/스크린샷 2025-03-14 오후 12.06.10.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오후 12.06.10.png" alt=""><figcaption></figcaption></figure></div>
 
 캐시 라인을을 하나의 셋에 두어 충돌실패를 줄인다.
 
@@ -137,12 +137,6 @@ for문이 반복되는동안 sum, i 에 반복 접근한다.\
 
 **Write Back** - 캐시 데이터를 업데이트 한 뒤, 메인 메모리는 나중에 업데이트\
 **더티 비트**라는 추가 메타데이터 비트를 저장
-
-
-
-## <mark style="background-color:yellow;">운영 체제</mark>
-
-
 
 
 
