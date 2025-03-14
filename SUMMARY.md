@@ -1,35 +1,6 @@
 # Table of contents
 
 * [QuiD-0](README.md)
-* [📚 LOG](log/README.md)
-  * [JpaRepository는 어떻게 interface만으로 동작할까.](log/jparepository-interface-..md)
-  * [JPA Entity에서 final을 쓰면 안되는 이유](log/jpa-entity-final.md)
-  * [여러개의 db를 연결하는 쉬운 방법](log/db.md)
-  * [소켓에서 발생하는 Too Many Open Files이슈 핸들링](log/too-many-open-files.md)
-  * [@Lock과 @Transactional(isolation)의 차이점](log/lock-transactional-isolation.md)
-  * [Domain과 Entity 분리하기](log/domain-entity.md)
-
-## Memo
-
-* [MindMap](memo/mindmap/README.md)
-  * [컴퓨터 네트워크](memo/mindmap/undefined.md)
-  * [어플리케이션 계층](memo/mindmap/undefined-1.md)
-  * [트랜스포트 계층](memo/mindmap/undefined-2.md)
-  * [라우팅과 인터넷 계층](memo/mindmap/undefined-3.md)
-  * [하드웨어와 네트워크 인터페이스 계층](memo/mindmap/undefined-4.md)
-  * [WAN](memo/mindmap/wan.md)
-  * [네트워크](memo/mindmap/undefined-5.md)
-  * [MYSQL 아키텍처](memo/mindmap/mysql.md)
-* [Books](memo/books/README.md)
-  * [JVM](memo/books/jvm.md)
-  * [GC](memo/books/gc.md)
-  * [Class Loader](memo/books/class-loader.md)
-  * [코드 더 잘 읽기](memo/books/undefined.md)
-  * [코드에 대해 생각하기](memo/books/undefined-1.md)
-  * [좋은 코드 작성하기](memo/books/undefined-2.md)
-  * [함수형 프로그래밍](memo/books/undefined-3.md)
-  * [계층형 설계](memo/books/undefined-4.md)
-  * [타임라인](memo/books/undefined-5.md)
 
 ## 도서 정리 <a href="#books" id="books"></a>
 
@@ -37,3 +8,7 @@
   * [아키텍처](books/undefined/undefined.md)
   * [운영 체제](books/undefined/undefined-1.md)
   * [병렬 프로그래밍](books/undefined/undefined-2.md)
+
+## 아카이브 <a href="#archive" id="archive"></a>
+
+* [Too Many Open Files 에러와 원인을 찾는 과정](archive/too-many-open-files.md)
