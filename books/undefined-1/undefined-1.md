@@ -1,6 +1,6 @@
 # 레디스와 캐시
 
-### 캐시란?
+### <mark style="background-color:yellow;">캐시란?</mark>
 
 데이터의 원본보다 더 빠르고 효율적으로 액세스할 수 있는 임시 데이터 저장소&#x20;
 
@@ -20,34 +20,34 @@
 
 
 
-### 캐싱전략
+### <mark style="background-color:yellow;">캐싱전략</mark>
 
-읽기 전략
+#### 읽기 전략
 
 **Look aside**&#x20;
 
 * 캐시를 우선 조회한 뒤 있으면(캐시 히트) 가지고 오고 없으면 DB를 조회한다.(캐시 미스)&#x20;
 * 캐시 워밍 작업을 통해 도입 초기 효율성을 높일수 있다.&#x20;
 
-쓰기 전략&#x20;
+#### 쓰기 전략&#x20;
 
-Write through
+**Write through**
 
 * 데이터를 업데이트 시킬때마다 Redis와 DB에 함께 업데이트&#x20;
 * 쓰기 과정에서 시간이 더 소요될 수 있다.
 * 다량의 쓰기 작업이 발생하면 그때 그때 DB에 업데이트를 해주어야한다.
 
-Write back
+**Write back**
 
 * 레디스에만 우선적으로 업데이트를 한 뒤 일정 주기마다 비동기적으로 DB에 업데이트
 * 캐시에 문제가 발생하면 일정 주기안의 데이터 유실 가능성이 존재
 
-Cache invalidation
+**Cache invalidation**
 
 * DB에 값을 업데이트할 때마다 캐시에서는 데이터를 삭제
 * Write through의 단점을 보완한 방법
 
-### 메모리 관리와 maxmemory-policy
+### <mark style="background-color:yellow;">메모리 관리와 maxmemory-policy</mark>
 
 제한적인 메모리가 가득 차는 상황이 발생했을경우 어떤 키를 삭제할지 결정
 
@@ -79,7 +79,7 @@ Cache invalidation
 
 **Volatile-ttl**&#x20;
 
-* 만료시간이 가장 작은 키를 제거, 근사치 사
+* 만료시간이 가장 작은 키를 제거, 근사치 사용&#x20;
 
 
 
