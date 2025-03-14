@@ -1,8 +1,6 @@
 # 아키텍처
 
-## <mark style="background-color:yellow;">컴퓨터 아키텍처</mark>
-
-### 폰 노이만 아키텍처
+### <mark style="background-color:yellow;">폰 노이만 아키텍처</mark>
 
 1. **처리 장치** - 명령어 실행
 2. **제어 장치** - 처리장치에서 명령어를 실행하도록 주도, 처리 + 제어 = CPU
@@ -13,7 +11,7 @@
 
 <div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.35.54.png" alt=""><figcaption></figcaption></figure></div>
 
-### 프로그램 명령어 사이클
+### <mark style="background-color:yellow;">프로그램 명령어 사이클</mark>
 
 **Fetch - Decode - Execute - Store**
 
@@ -40,9 +38,7 @@
 
 
 
-## <mark style="background-color:yellow;">저장소와 메모리 계층</mark>
-
-### 메모리 계층
+### <mark style="background-color:yellow;">메모리 계층</mark>
 
 <div align="left"><figure><img src="../../.gitbook/assets/스크린샷 2025-03-14 오전 10.58.38.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -72,7 +68,7 @@ SATA 컨트롤러에 연결된 HDD는 I/O 버스를 통해 I/O컨트롤러에 �
 
 
 
-### 지역성
+### <mark style="background-color:yellow;">지역성</mark>
 
 ```kts
 var sum = 0
@@ -92,7 +88,7 @@ for문이 반복되는동안 sum, i 에 반복 접근한다.\
 
 
 
-### CPU 캐시
+### <mark style="background-color:yellow;">CPU 캐시</mark>
 
 1. 프로그램은 가장 먼저 데이터의 메모리 주소를 계산
 2. 캐시와 메인 메모리에 동시에 주소를 전송
@@ -105,6 +101,8 @@ for문이 반복되는동안 sum, i 에 반복 접근한다.\
 * **강제 실패 / 콜드 스타트 실패** - 새로운 메모리 주소에 처음 접근
 * **용량 실패** - 프로그램이 캐시보다 더 많은 메모리를 사용
 * **충돌 실패** - 같은 캐시 라인을 두고 경쟁&#x20;
+
+
 
 ### 다이렉트 맵드 캐시
 
