@@ -13,6 +13,7 @@
   * [레디스 기본 개념](books/undefined-1/undefined.md)
   * [레디스와 캐시](books/undefined-1/undefined-1.md)
   * [메시지 브로커](books/undefined-1/undefined-2.md)
+  * [고가용성](books/undefined-1/undefined-3.md)
 
 ## 아카이브 <a href="#archive" id="archive"></a>
 
