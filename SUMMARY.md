@@ -15,11 +15,6 @@
   * [메시지 브로커](books/undefined-1/undefined-2.md)
   * [고가용성](books/undefined-1/undefined-3.md)
 
-***
-
-* [도메인 주도 설계 핵심](undefined/README.md)
-  * [나에게 도메인 주도 설계는](undefined/undefined.md)
-
 ## 아카이브 <a href="#archive" id="archive"></a>
 
 * [Too Many Open Files 에러와 원인을 찾는 과정](archive/too-many-open-files.md)
